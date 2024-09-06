@@ -1,0 +1,11 @@
+{
+  "name": "saucedemo_tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "testcafe chrome tests/ --reporter allure",
+    "report": "allure generate reports/allure-results --clean -o reports/allure-report && allure open reports/allure-report"
+  }
+}
+
